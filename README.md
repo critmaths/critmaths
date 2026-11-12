@@ -14,11 +14,12 @@
 
 ## 🎯 Engineering Summary
 
-I architect and ship high-assurance software systems from low-level native Rust engines to responsive cross-platform desktop/mobile interfaces and hardened full-stack web infrastructure:
+I architect and ship high-assurance software systems from low-level native Rust engines to responsive cross-platform desktop/mobile interfaces, custom OS shell environments, and hardened full-stack web infrastructure:
 
-- 🦀 **Native Systems & Endpoint Security**: Creator of **[OmAV Security Suite](https://github.com/critmaths/omav-releases)** — a multi-threaded Rust (`Rayon`) antivirus and 6-layer active defense platform combining YARA pattern evaluation, Windows AMSI script de-obfuscation, ransomware canary tripwires, and multi-peer `ChaCha20-Poly1305` WireGuard VPN protection with a Flutter 3.24 desktop UI.
-- 📡 **Decentralized & Cryptographic Mesh Networking**: Creator of **[NeighborNet](https://github.com/critmaths/neighbornet)** (`12 ★`) — an off-grid, partition-tolerant community communications mesh built on the **Reticulum Network Stack (RNS)** in native Rust (`Ed25519` identity, `X25519` encryption, signed Directed Acyclic Graph store-and-forward sync) with a cross-platform Flutter UI.
-- ✉️ **High-Security Desktop Applications**: Creator of **[CritMail // SIGINT Communications Terminal](https://github.com/critmaths/crit-mail-client-releases)** — a cross-platform (`Windows / macOS / Linux`) encrypted email client featuring `AES-256-GCM` payload security, OS DPAPI hardware vault integration, and a strict zero-JS sandbox.
+- 🦀 **Native Systems & Endpoint Security**: Creator of **[OmAV Security Suite](https://github.com/critmaths/omav-releases)** — a multi-threaded Rust (`Rayon`) antivirus and 6-layer active defense platform combining YARA pattern evaluation, Windows AMSI script de-obfuscation, ransomware canary tripwires, and multi-peer `ChaCha20-Poly1305` WireGuard VPN protection with a Flutter desktop UI.
+- ⚡ **Desktop Environments & Shell Optimization**: Creator of **[GRID//OS](https://github.com/critmaths/grid-os)** — a futuristic cyberpunk desktop shell for Windows featuring real-time 3D Tron horizon grids, Katakana Matrix digital rain, polymorphic expanding icon pods, a borderless dissolving PowerShell terminal, and a Win32 `psapi.dll!EmptyWorkingSet` memory trimmer that slashes `explorer.exe` memory usage while running.
+- 📡 **Decentralized & Cryptographic Mesh Networking**: Creator of **[NeighborNet](https://github.com/critmaths/neighbornet)** — an off-grid, partition-tolerant community communications mesh built on the **Reticulum Network Stack (RNS)** in native Rust (`Ed25519` identity, `X25519` encryption, signed Directed Acyclic Graph store-and-forward sync) with a cross-platform Flutter UI.
+- ✉️ **High-Security Desktop Applications**: Creator of **[CritMail // SIGINT Communications Terminal](https://github.com/critmaths/crit-mail-client-releases)** — an ultra-fast encrypted email client featuring `AES-256-GCM` payload security, OS DPAPI hardware vault integration, and a strict zero-JS sandbox in a retro-futuristic Winamp 3 aesthetic.
 - 🔒 **Zero-Cloud Web Security & Headless Architecture**: Creator of **[CyberArmor (`WPSpamArmor`)](https://github.com/critmaths/WPSpamArmor)** (100% local Layer-7 WAF, client-side micro Proof-of-Work, and HMAC velocity gates) and **[WP Headless Hub](https://github.com/critmaths/wp-headless-hub)** (constant-time `HMAC-SHA256` draft previews & instant ISR cache revalidation for Next.js and Astro).
 
 > *When I'm not neck-deep in raw pointers, kernel traps, or firewall logic, I actually have quite a soft spot for clean front-end design, slick UI/UX, bespoke WordPress sorcery, and making pixels behave themselves.*  
@@ -30,9 +31,10 @@ I architect and ship high-assurance software systems from low-level native Rust 
 
 | System | Architecture & Core Stack | Highlights |
 | :--- | :--- | :--- |
-| 🛡️ **[OmAV Security Suite](https://github.com/critmaths/omav-releases)** | `Rust 2021` • `Rayon` • `Flutter 3.24` • `YARA + AMSI` • `WireGuard` | 6-layer active endpoint defense, parallel heuristic scanning, ransomware canary traps, and built-in zero-log WireGuard VPN. |
-| 🌐 **[NeighborNet Mesh](https://github.com/critmaths/neighbornet)** | `Rust` • `Reticulum (RNS)` • `Ed25519/X25519` • `Signed DAG` • `Flutter` | Off-grid sovereign community mesh with asymmetric Raspberry Pi transport relays and mobile store-and-forward sync. |
-| 📟 **[CritMail SIGINT Client](https://github.com/critmaths/crit-mail-client-releases)** | `AES-256-GCM` • `DPAPI` • `IMAP4/POP3/SMTP` • `Zero-JS Sandbox` | Ultra-fast, hack-proof cross-platform email terminal with hardware-bound credential protection and zero remote tracking beacons. |
+| 🛡️ **[OmAV Security Suite](https://github.com/critmaths/omav-releases)** | `Rust 2021` • `Rayon` • `Flutter` • `YARA + AMSI` • `WireGuard` | 6-layer active endpoint defense, parallel heuristic scanning, ransomware canary traps, and built-in zero-log WireGuard VPN. |
+| ⚡ **[GRID//OS Cyber-Shell](https://github.com/critmaths/grid-os)** | `Win32 API` • `PowerShell` • `HTML5 Canvas` • `CSS Alpha Masks` • `psapi.dll` | Next-gen Tron/Matrix desktop shell with expanding smart pods, dissolving terminal, and real-time `explorer.exe` RAM trimmer. |
+| 🌐 **[NeighborNet Mesh](https://github.com/critmaths/neighbornet)** | `Rust` • `Reticulum (RNS)` • `Ed25519/X25519` • `Signed DAG` • `Flutter` | Off-grid sovereign community mesh with asymmetric transport relays and mobile store-and-forward sync. |
+| 📟 **[CritMail SIGINT Client](https://github.com/critmaths/crit-mail-client-releases)** | `AES-256-GCM` • `DPAPI` • `IMAP4/POP3/SMTP` • `Zero-JS Sandbox` | Ultra-fast, hack-proof cross-platform email terminal with hardware-bound credential protection in a Winamp 3 cyber aesthetic. |
 | 🛡️ **[CyberArmor WAF](https://github.com/critmaths/WPSpamArmor)** | `PHP` • `WebCrypto PoW` • `HMAC-SHA256` • `Layer-7 WAF` | Privacy-first, zero-cloud anti-spam & firewall using browser Proof-of-Work and salted honeypots (100% GDPR compliant). |
 | 🔗 **[WP Headless Hub](https://github.com/critmaths/wp-headless-hub)** | `Next.js` • `Astro` • `PHP` • `HMAC-SHA256` • `timingSafeEqual` | Cryptographic 300s TTL draft preview links and event-driven ISR cache purging webhooks. |
 | 🎬 **[Neo-Tech Stream Suite](https://github.com/critmaths/criticalmaths-stream-suite)** | `HTML5 Canvas` • `Web Audio API` • `Twitch IRC WebSocket` • `60 FPS CSS3` | GPU-accelerated broadcast overlay studio with procedural Web Audio synthesizer cues and live IRC chat. |
@@ -41,10 +43,10 @@ I architect and ship high-assurance software systems from low-level native Rust 
 
 ## 🛠️ Technical Stack
 
-- **Systems & Native**: `Rust (2021 Edition)`, `Rayon`, `Tokio`, `Win32 / OS APIs`, `DPAPI`, `FFI`
+- **Systems & Native**: `Rust (2021 Edition)`, `Rayon`, `Tokio`, `Win32 / OS APIs`, `DPAPI`, `psapi.dll`, `FFI`
 - **Security & Cryptography**: `Ed25519`, `X25519`, `AES-256-GCM`, `ChaCha20-Poly1305`, `HMAC-SHA256`, `YARA`, `AMSI`, `WireGuard`
-- **Cross-Platform & Frontend**: `Flutter 3.24`, `Dart`, `TypeScript`, `JavaScript (ES2024)`, `Next.js`, `Astro`, `HTML5 Canvas`, `Web Audio API`
-- **Backend & Infrastructure**: `PHP`, `Python`, `Reticulum Network Stack (RNS)`, `REST / Webhooks`, `GitHub Actions CI/CD`
+- **Cross-Platform & Frontend**: `Flutter`, `Dart`, `TypeScript`, `JavaScript (ES2024)`, `Next.js`, `Astro`, `HTML5 Canvas`, `Web Audio API`
+- **Backend & Infrastructure**: `PHP`, `Python`, `PowerShell`, `Reticulum Network Stack (RNS)`, `REST / Webhooks`, `GitHub Actions CI/CD`
 
 ---
 
